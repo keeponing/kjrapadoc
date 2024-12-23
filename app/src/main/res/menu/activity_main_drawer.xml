@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item   android:id="@+id/jra_place" android:title="競馬場/開催">
+            <menu>
+                <item
+                    android:id="@+id/jra_place_1"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="#1" />
+
+                <item
+                    android:id="@+id/jra_place_2"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="#2" />
+
+                <item
+                    android:id="@+id/jra_place_3"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="#3" />
+
+                <item
+                    android:id="@+id/jra_place_4"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="#4" />
+
+                <item
+                    android:id="@+id/jra_place_5"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="#5" />
+
+                <item
+                    android:id="@+id/jra_place_6"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="#6" />
+
+
+            </menu>
+        </item>>
+        <item
+            android:id="@+id/jra_function"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="機能">
+            <menu
+                android:id="@+id/jra_sub_function"
+                android:title="サブ機能">
+
+
+                <item
+                    android:id="@+id/jra_race_predict_sort"
+                    android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                    android:title="予想順ソート"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/jra_race_just_time"
+                    android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                    android:title="カレントタイム表示"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/jra_race_check"
+                    android:icon="@drawable/ic_menu_archive"
+                    android:title="チェック" />
+                <item
+                    android:id="@+id/jra_delete_files"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="データ削除" />
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

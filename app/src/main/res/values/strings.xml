@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">オレパドック</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_page_d">出馬表</string>
+    <string name="title_activity_page_s">レース結果</string>
+    <string name="action_auto_result">自動成績更新</string>
+    <string name="action_page_d">出馬表</string>
+    <string name="action_page_s">レース結果</string>
+    <string name="action_page_h">払戻金</string>
+    <string name="action_page_l">リーディング</string>
+    <string name="action_page_kc">コース特性</string>F
+    <string name="action_page_forecast">予想</string>
+    <string name="title_activity_forecast2">Forecast2Activity</string>
+    <string name="title_activity_graph">GraphActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail2">Detail2Activity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_comment">CommentActivity</string>
+</resources>

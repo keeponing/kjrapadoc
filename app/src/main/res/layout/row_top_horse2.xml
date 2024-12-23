@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <TextView
+                android:id="@+id/umaban"
+                android:layout_width="12sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="0dp"
+                android:layout_toRightOf="@+id/rank"
+                android:text="○"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorNonSelected"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/rank"
+                android:layout_width="10sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="0dp"
+                android:text="●"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorNonSelected"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="0dp"
+                android:layout_toRightOf="@+id/umaban"
+                android:text="AAAAAAAAA"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#DDDDDD"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/chk_indication"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="気配"
+                android:textSize="8sp" />
+
+            <CheckBox
+                android:id="@+id/chk_taken"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="踏出"
+                android:textSize="8sp" />
+
+            <CheckBox
+                android:id="@+id/chk_ayumi"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="歩様"
+                android:textSize="8sp" />
+
+            <CheckBox
+                android:id="@+id/chk_twoperson"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="二人"
+                android:textSize="8sp" />
+
+            <CheckBox
+                android:id="@+id/chk_glossy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="false"
+                android:text="毛艶"
+                android:textColorHighlight="#E91E63"
+                android:textColorLink="#E91E63"
+                android:textSize="8sp" />
+
+            <CheckBox
+                android:id="@+id/chk_excitement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="イレ"
+                android:textColorLink="#E91E63"
+                android:textSize="8sp" />
+
+            <CheckBox
+                android:id="@+id/chk_thicker"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="体重"
+                android:textColorLink="#E91E63"
+                android:textSize="8sp" />
+
+            <CheckBox
+                android:id="@+id/chk_sweating"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="発汗"
+                android:textColorLink="#E91E63"
+                android:textSize="8sp" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
