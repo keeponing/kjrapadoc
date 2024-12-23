@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kjrapadoc.iml" filepath="$PROJECT_DIR$/.idea/modules/kjrapadoc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/kjrapadoc.app.unitTest.iml" />
